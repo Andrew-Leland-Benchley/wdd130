@@ -1,0 +1,26 @@
+body{
+    background-color: #FCA6C9;
+    text-align: center;
+    margin: 0 50px;
+}
+
+.pageStuff{
+    width: 400px;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.pageStuff h2{
+    color: blue;
+    width: 400px;
+}
+
+.pageStuff h3{
+    color: black;
+    width: 400px;
+}
+
+
