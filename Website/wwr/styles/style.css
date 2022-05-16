@@ -2,7 +2,15 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
+}
+
+.icon {
+    width: 80px;
+}
+
+.logo{
+    width: 80px;
 }
 
 #content {
