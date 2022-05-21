@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Orelega+One&family=Secular+One&display=swap');
+
 #hero-img{
     display: block;
     margin-left: auto;
@@ -7,6 +10,7 @@
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo{
@@ -35,26 +39,33 @@ main section{
 }
 
 #background {
-    height: 725px;
+    height: 300px;
     background-color: white
 }
 
 header {
-    background-color: white;
+    text-align: center;
+    background-color: #087CA7;
+    font-family: 'Secular One', sans-serif;
 }
 
 body {
     background-color: #033860;
+    font-family: 'Orelega One', cursive;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 nav a{
-    color: blanchedalmond;
+    color: black;
     text-decoration: none;
 }
 
 nav a:hover{
-    background-color: #087CA7;
-    color: white;
+    background-color: lightcoral;
+    text-decoration: underline;
+    color: azure;
 }
 
 h4{
@@ -65,6 +76,7 @@ h4{
     background-color: #033860;
     color: white;
     text-decoration: none;
+    font-family: 'Orelega One', cursive;
 }
 
 .join{
@@ -89,10 +101,13 @@ main{
 
 .msg{
     background-color: #033860;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg p{
     color: white;
+    font-size: .8em;
 }
 
 .msg h2{
@@ -101,7 +116,8 @@ main{
 
 footer h3{
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
+    font-size: .8em;
 }
 
 footer a{
@@ -110,17 +126,30 @@ footer a{
 }
 
 footer a:hover{
-    color: white;
+    color: blue;
     text-decoration: underline;
 }
 
-
+.card-img{
+    border: 10px solid #087CA7;
+}
 
 footer{
     background-color: #087CA7;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title{
     color: white;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
+h2{
+    margin: 0;
+}
+
+.home-grid{
+    text-align: center;
+}
