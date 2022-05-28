@@ -1,0 +1,11 @@
+.content{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.image{
+}
+
+.text{
+    position: absolute;
+}
