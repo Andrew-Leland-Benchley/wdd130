@@ -1,5 +1,17 @@
+header{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
 body{
+    font-family: 'Helvetica', sans-serif;
     margin-left: 0;
+    background-color: #6C5CAD;
+}
+
+.pic{
+    width: 500px;
 }
 
 .nav-bar{
@@ -11,7 +23,7 @@ body{
 
 .nav-background{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     background-color: #939F5C;
     width: 100%;
     height: 100px;
@@ -25,11 +37,68 @@ body{
     height: 100px;
 }
 
-.spacing{
-    margin: 0 auto;
-    height: 100px;
+.home{
+    grid-column: 2/3;
+    background-color:#9AADAB;
+    color: black;
+    margin: 20px;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+    border: 10px black;
+    border-radius: 20px;
 }
 
-.filler{
-    height: 1000px;
+.philosophers{
+    grid-column: 4/5;
+    background-color:#9AADAB;
+    color: black;
+    margin: 20px;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+    border: 10px black;
+    border-radius: 20px;
+}
+
+.philosophy{
+    grid-column: 6/7;
+    background-color:#9AADAB;
+    color: black;
+    margin: 20px;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+    border: 10px black;
+    border-radius: 20px;
+}
+
+.home:hover{
+    background-color: #AD535E;
+    color: white;
+}
+
+.philosophers:hover{
+    background-color: #AD535E;
+    color: white;
+}
+
+.philosophy:hover{
+    background-color: #AD535E;
+    color: white;
+}
+
+.spacing{
+    margin: 0 auto;
+    height: 130px;
+}
+
+.entrytext{
+    background-color: #9AADAB;
+    margin-right: 50px;
+    margin-left: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px black;
 }
