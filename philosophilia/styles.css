@@ -139,6 +139,39 @@ main{
     box-shadow: 5px 5px 40px black;
 }
 
+.topsplit{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #AD535E;
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 4px 4px 20px black;
+}
+
+.imges1{
+    width: 400px;
+    margin: 0 100px;
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 40px black;
+}
+.imges2{
+    width: 400px;
+    margin: 0 100px;
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 40px black;
+}
+
+.break{
+    background-color: #29ea392a;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 20px black;
+}
+
 /* left column ------------------------------------------------------------------------------------*/
 .split1{
     display: flex;
