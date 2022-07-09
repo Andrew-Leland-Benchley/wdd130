@@ -20,7 +20,7 @@
     <div class="spacing"></div>
     <main>
         <div>
-            <div class="text">Why Visit?<br><br>
+            <div class="text">Welcome!<br><br>
                 This website is dedicated to being a hubspot for all things philosophy and psychology. If you are anything like me, you spend some of your free time thinking about why things are the way they are. Let this website be the place where you find yourself – Andrew Leland
             </div>
         </div>
@@ -44,17 +44,65 @@
                 <img src="images/istockphoto-1066705000-170667a.jpg" alt="Statue GUy2" class="imges" id="pic3">
             </div>
         </div>
+
+        <!-- Modal Content -->
+        <div class="centering">
+            <!-- Button to open the modal login form -->
+            <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+    
+            <!-- The Modal -->
+            <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'"
+            class="close" title="Close Modal">&times;</span>
+            <form class="modal-content-animate" action="/action_page.php">
+                <div class="imgcontainer">
+                <img src="images/Rene.png" alt="Rene Descartes" class="avatar">
+                </div>
+
+                <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+            </form>
+        </div>
+
         <div class="spacing"></div>
     </main>
     <footer>
-        @Andrew Leland | wdd 130 | Final Project | Philosophilia --- 
-        <a href="site-plan.html">Site Plan</a>
-        <a href="https://www.facebook.com/">
-            <img src="images/facebook.png" alt="facebook" class="facebook">
-        </a>
-        <a href="https://twitter.com/?lang=en">
-            <img src="images/twitter.png" alt="twitter" class="twitter">
-        </a>
+        <div class="foot">
+            <div class="name">
+                @Andrew Leland
+            </div>
+            <div class="wdd130">
+                wdd 130
+            </div>
+            <div class="finalproject">
+                Final Project
+            </div>
+            <div class="phillogo">
+                Philosophilia --- 
+            </div>
+            <a href="site-plan.html" class="siteplan">Site Plan</a>
+            <a href="https://www.facebook.com/">
+                <img src="images/facebook.png" alt="facebook" class="facebook">
+            </a>
+            <a href="https://twitter.com/?lang=en">
+                <img src="images/twitter.png" alt="twitter" class="twitter">
+            </a>
+        </div>
     </footer>
 </body>
 </html>
